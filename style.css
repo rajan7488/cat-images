@@ -1,0 +1,48 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    transition: opacity 0.8s ease-in;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 0.5s linear;
+}
+img:hover{
+    rotate: 360deg;
+}
+
+button{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    padding: 10px 10px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+button:active{
+    background-color:rgb(92, 55, 55) ;
+    
+}
